@@ -8,6 +8,50 @@ npm install --save-dev tachyons-type-scale
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/* ==========================================================================
+   TYPE SCALE
+   ========================================================================== */
+.mega  { font-size: 4rem; }
+.f1    { font-size: 2rem; }
+.f2    { font-size: 1.5rem; }
+.f3    { font-size: 1.25rem; }
+.f4    { font-size: 1rem; }
+.f5,
+.small { font-size: .85rem; }
+
+
+@include break(not-small){
+ .mega-ns { font-size: 4rem; }
+ .f1-ns {   font-size: 2rem; }
+ .f2-ns {   font-size: 1.5rem; }
+ .f3-ns {   font-size: 1.25em; }
+ .f4-ns {   font-size: 1.25rem; }
+ .f5-ns {   font-size: 1rem; }
+ .f6-ns {   font-size: .85rem; }
+}
+
+@include break(medium) {
+ .mega-m { font-size: 4rem; }
+ .f1-m {   font-size: 2rem; }
+ .f2-m {   font-size: 1.5rem; }
+ .f3-m {   font-size: 1.25rem; }
+ .f4-m {   font-size: 1rem; }
+ .f5-m {   font-size: .85rem; }
+}
+
+@include break(large) {
+ .mega-l { font-size: 4rem; }
+ .f1-l   { font-size: 2rem; }
+ .f2-l   { font-size: 1.5rem; }
+ .f3-l   { font-size: 1.25rem; }
+ .f4-l   { font-size: 1rem; }
+ .f5-l   { font-size: .85rem; }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
