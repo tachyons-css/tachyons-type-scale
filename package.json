@@ -1,12 +1,12 @@
 {
   "name": "tachyons-type-scale",
   "version": "0.3.0",
-  "style": "type_scale.css",
+  "style": "tachyons-type-scale.css",
   "homepage": "http://mrmrs.io/tachyons-type-scale",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
