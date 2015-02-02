@@ -2,7 +2,7 @@
   "name": "tachyons-type-scale",
   "version": "1.0.0",
   "style": "tachyons-type-scale.css",
-  "homepage": "http://mrmrs.io/tachyons-type-scale",
+  "homepage": "http://github.com/mrmrs/tachyons-type-scale",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
