@@ -2,9 +2,12 @@
 @custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
 @custom-media --breakpoint-large screen and (min-width: 64em);
 
-/* ==========================================================================
+/*
+
    TYPE SCALE
-   ========================================================================== */
+
+*/
+
 .mega  { font-size: 4rem; }
 .f1    { font-size: 2rem; }
 .f2    { font-size: 1.5rem; }
@@ -13,15 +16,13 @@
 .f5,
 .small { font-size: .85rem; }
 
-
-@media (--breakpoint-not-small) {
+@media (--breakpoint-not-small){
  .mega-ns { font-size: 4rem; }
  .f1-ns {   font-size: 2rem; }
  .f2-ns {   font-size: 1.5rem; }
  .f3-ns {   font-size: 1.25em; }
- .f4-ns {   font-size: 1.25rem; }
- .f5-ns {   font-size: 1rem; }
- .f6-ns {   font-size: .85rem; }
+ .f4-ns {   font-size: 1rem; }
+ .f5-ns {   font-size: .85rem; }
 }
 
 @media (--breakpoint-medium) {
@@ -41,4 +42,3 @@
  .f4-l   { font-size: 1rem; }
  .f5-l   { font-size: .85rem; }
 }
-
