@@ -29,7 +29,7 @@
   font-size: .85rem;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
   .mega-ns {
     font-size: 4rem;
   }
