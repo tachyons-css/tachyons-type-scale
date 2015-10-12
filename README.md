@@ -1,57 +1,62 @@
-# TACHYONS-TYPE-SCALE
+# tachyons-type-scale
+3.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-type-scale
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-type-scale
+```
 
 ## The Code
 ```
+/*
 
-/* ==========================================================================
    TYPE SCALE
-   ========================================================================== */
+
+*/
+
 .mega  { font-size: 4rem; }
 .f1    { font-size: 2rem; }
 .f2    { font-size: 1.5rem; }
 .f3    { font-size: 1.25rem; }
 .f4    { font-size: 1rem; }
 .f5,
-.small { font-size: .85rem; }
+.small { font-size: .875rem; }
 
-
-@include break(not-small){
+@media screen and (min-width: 48em){
  .mega-ns { font-size: 4rem; }
  .f1-ns {   font-size: 2rem; }
  .f2-ns {   font-size: 1.5rem; }
- .f3-ns {   font-size: 1.25em; }
- .f4-ns {   font-size: 1.25rem; }
- .f5-ns {   font-size: 1rem; }
- .f6-ns {   font-size: .85rem; }
+ .f3-ns {   font-size: 1.25rem; }
+ .f4-ns {   font-size: 1rem; }
+ .f5-ns {   font-size: .875rem; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
  .mega-m { font-size: 4rem; }
  .f1-m {   font-size: 2rem; }
  .f2-m {   font-size: 1.5rem; }
  .f3-m {   font-size: 1.25rem; }
  .f4-m {   font-size: 1rem; }
- .f5-m {   font-size: .85rem; }
+ .f5-m {   font-size: .875rem; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em) {
  .mega-l { font-size: 4rem; }
  .f1-l   { font-size: 2rem; }
  .f2-l   { font-size: 1.5rem; }
  .f3-l   { font-size: 1.25rem; }
  .f4-l   { font-size: 1rem; }
- .f5-l   { font-size: .85rem; }
+ .f5-l   { font-size: .875rem; }
 }
+
 ```
 
 ## Author
