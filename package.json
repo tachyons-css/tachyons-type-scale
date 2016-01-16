@@ -2,15 +2,15 @@
   "name": "tachyons-type-scale",
   "version": "4.0.1",
   "style": "tachyons-type-scale.css",
-  "homepage": "http://github.com/mrmrs/tachyons-type-scale",
+  "homepage": "http://github.com/tachyons-css/tachyons-type-scale",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-type-scale.git"
+    "url": "http://github.com/tachyons-css/tachyons-type-scale.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-type-scale/issues",
+    "url": "https://github.com/tachyons-css/tachyons-type-scale/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
