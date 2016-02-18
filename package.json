@@ -1,6 +1,6 @@
 {
   "name": "tachyons-type-scale",
-  "version": "4.0.3",
+  "version": "5.0.0",
   "style": "src/tachyons-type-scale.css",
   "description": "Performance based css module.",
   "keywords": [
