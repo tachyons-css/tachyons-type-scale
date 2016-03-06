@@ -1,10 +1,10 @@
-# tachyons-type-scale 5.0.0
+# tachyons-type-scale 5.0.1
 
 Performance based css module.
 
 #### Stats
 
-312 | 40 | 32
+318 | 40 | 32
 ---|---|---
 bytes | selectors | declarations
 
@@ -62,8 +62,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 */
 /* For Hero Titles */
-.f-6-ns, .f-headline { font-size: 6rem; }
-.f-5-ns, .f-subheadline { font-size: 5rem; }
+.f-6, .f-headline { font-size: 6rem; }
+.f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
 .f1 { font-size: 3rem; }
 .f2 { font-size: 2.25rem; }
