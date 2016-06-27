@@ -1,4 +1,4 @@
-# tachyons-type-scale 5.0.1
+# tachyons-type-scale 5.0.4
 
 Performance based css module.
 
