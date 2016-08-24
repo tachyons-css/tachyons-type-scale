@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-318 | 40 | 32
+317 | 40 | 32
 ---|---|---
 bytes | selectors | declarations
 
@@ -89,7 +89,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .f4 { font-size: 1.25rem; }
 .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .f-6-ns, .f-headline-ns { font-size: 6rem; }
  .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
  .f1-ns { font-size: 3rem; }
@@ -99,7 +99,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .f5-ns { font-size: 1rem; }
  .f6-ns { font-size: .875rem; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .f-6-m, .f-headline-m { font-size: 6rem; }
  .f-5-m, .f-subheadline-m { font-size: 5rem; }
  .f1-m { font-size: 3rem; }
@@ -109,7 +109,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .f5-m { font-size: 1rem; }
  .f6-m { font-size: .875rem; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .f-6-l, .f-headline-l { font-size: 6rem; }
  .f-5-l, .f-subheadline-l { font-size: 5rem; }
  .f1-l { font-size: 3rem; }
