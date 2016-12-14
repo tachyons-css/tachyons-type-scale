@@ -2,6 +2,7 @@
   "name": "tachyons-type-scale",
   "version": "6.0.3",
   "style": "src/tachyons-type-scale.css",
+  "main": "src/tachyons-type-scale.css",
   "description": "Performance based css module.",
   "keywords": [
     "tachyons",
