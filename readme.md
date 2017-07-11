@@ -1,10 +1,10 @@
-# tachyons-type-scale 6.0.5
+# tachyons-type-scale 6.1.0
 
 Performance based css module.
 
 #### Stats
 
-317 | 40 | 32
+531 | 44 | 36
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-type-scale@6.0.5/css/tachyons-type-scale.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-type-scale@6.1.0/css/tachyons-type-scale.min.css" />
 ```
 
 ##### Locally
@@ -77,6 +77,24 @@ Running `$ npm start` will process the source css and place the built css in the
 /*
 
    TYPE SCALE
+   Docs: http://tachyons.io/docs/typography/scale/
+
+   Base:
+    f = font-size
+
+   Modifiers
+     1 = 1st step in size scale
+     2 = 2nd step in size scale
+     3 = 3rd step in size scale
+     4 = 4th step in size scale
+     5 = 5th step in size scale
+     6 = 6th step in size scale
+     7 = 7th step in size scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
 */
 /* For Hero Titles */
@@ -89,6 +107,8 @@ Running `$ npm start` will process the source css and place the built css in the
 .f4 { font-size: 1.25rem; }
 .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
+.f7 { font-size: .75rem; }
+/* Small and hard to read for many people so use with extreme caution */
 @media screen and (min-width: 30em) {
  .f-6-ns, .f-headline-ns { font-size: 6rem; }
  .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
@@ -98,6 +118,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .f4-ns { font-size: 1.25rem; }
  .f5-ns { font-size: 1rem; }
  .f6-ns { font-size: .875rem; }
+ .f7-ns { font-size: .75rem; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
  .f-6-m, .f-headline-m { font-size: 6rem; }
@@ -108,6 +129,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .f4-m { font-size: 1.25rem; }
  .f5-m { font-size: 1rem; }
  .f6-m { font-size: .875rem; }
+ .f7-m { font-size: .75rem; }
 }
 @media screen and (min-width: 60em) {
  .f-6-l, .f-headline-l { font-size: 6rem; }
@@ -118,6 +140,7 @@ Running `$ npm start` will process the source css and place the built css in the
  .f4-l { font-size: 1.25rem; }
  .f5-l { font-size: 1rem; }
  .f6-l { font-size: .875rem; }
+ .f7-l { font-size: .75rem; }
 }
 ```
 
